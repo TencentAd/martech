@@ -1,0 +1,14 @@
+.idea
+.DS_Store
+node_modules
+ignore
+datacube/*/target
+datacube/datacube-common/datacube-common.iml
+datacube/datacube-flatten/datacube-flatten.iml
+datacube/datacube-join/datacube-join.iml
+datacube/datacube-proto/datacube-proto.iml
+datacube/datacube-service/datacube-service.iml
+datacube/ug-datacube.iml
+cmd/web/sqlite.db
+cmd/web/dist
+cmd/web/docs

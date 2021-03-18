@@ -1,0 +1,20 @@
+{
+  "name": "ug-docs",
+  "version": "1.0.0",
+  "description": "The docs repo of UG project",
+  "main": "index.js",
+  "author": "UG",
+  "scripts": {
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "martech": "cross-env VUEPRESS_BASE=/martech/ vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "filemanager-webpack-plugin": "^4.0.0",
+    "fs-extra": "^9.1.0",
+    "vuepress": "^1.8.0",
+    "vuepress-plugin-mermaidjs": "^1.8.1"
+  }
+}
